@@ -3024,9 +3024,11 @@ MantineEvosAttacks:
 	db 0 ; no more level-up moves
 
 SkarmoryEvosAttacks:
+	db EVOLVE_HELD, PSNCUREBERRY, 7, LUGIA
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, PECK
+	db 1, BODY_SLAM
 	db 13, SAND_ATTACK
 	db 19, SWIFT
 	db 25, AGILITY
